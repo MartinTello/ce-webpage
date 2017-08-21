@@ -1,0 +1,19 @@
+{
+  "name": "ce-webpage",
+  "version": "1.0.0",
+  "description": "PaginaWebCntroDeEstudiantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinTello/ce-webpage.git"
+  },
+  "author": "MartinTello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinTello/ce-webpage/issues"
+  },
+  "homepage": "https://github.com/MartinTello/ce-webpage#readme"
+}
