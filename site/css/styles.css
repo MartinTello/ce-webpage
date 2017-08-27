@@ -1,176 +1,278 @@
 body{
-    font-size: 16px;
-    color: #f58220;
-    background-color: #ecf0f5;
-    font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+color: #f58220;
+background-color: #ecf0f5;
+font-family: 'Open Sans', sans-serif;
 }
 #header-nav {
-    background-color: #3e5062;
-    border-radius: 0;
-    border: 0;
+background-color: #3e5062;
+border-radius: 0;
+border: 0;
 }
 #logo-img-unsj{
-    background: url('../images/logoCreando-2.jpg') no-repeat ;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 119% auto; 
-    width: 120px;
-    height: 120px;
-    margin: 10px 15px 10px -50px;
+background: url('../images/logoCreando-2.jpg') no-repeat ;
+background-position: 50%;
+border-radius: 50%;
+background-size: 119% auto; 
+width: 120px;
+height: 120px;
+margin: 10px 15px 10px -50px;
 }
 
 .navbar-brand{
-    padding-top: 25px;
+padding-top: 25px;
 }
 .navbar-brand h1{ /*Titulo : centro de estudiantes*/
-    font-family: 'Open Sans', sans-serif;
-    color: #f58220;
-    font-size: 2vw;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
+font-family: 'Open Sans', sans-serif;
+color: #f58220;
+font-size: 2vw;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
-    text-decoration: none;
+text-decoration: none;
 }
 .navbar-brand p{/*Universidad nacional de san juan*/
-    color: #000;
-    text-transform: uppercase;
-    font-size: .7em;
-    margin-top: 15px;
+color: #000;
+text-transform: uppercase;
+font-size: .7em;
+margin-top: 15px;
 }
 .navbar-brand p span{
-    vertical-align: middle;
+vertical-align: middle;
 }
 #nav-list {
-    margin-top: 10px;
-  }
+margin-top: 10px;
+}
 #nav-list a {
-    color: #f58220;
-    text-align: center;
-  }
+color: #f58220;
+text-align: center;
+}
 #nav-list a:hover {
-    background: #E7E7E7;
-  }
+background: #E7E7E7;
+}
 #nav-list a span {
-    font-size: 2vw;
-  }
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #f58220;
-  }
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #f58220;
-  }
-  .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-  }
-  /* END HEADER */
-
- /*Start Home Page*/
-
-
- .container .jumbatron{
-    box-shadow: 0 0 40px #2D1602;
-    border: none;
+font-size: 2vw;
 }
-#institucinal-tile, #carreras-tile, #becas-tile, #contacto-tile {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-    border: 2px solid #3F0C1F;
-    overflow: hidden;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+border: 1px solid #f58220;
 }
-#institucinal-tile:hover, #carreras-tile:hover, #map-tile:hover ,#becas-tile:hover,#contacto-tile:hover{
-    box-shadow: 0 1px 5px 1px #7A7979;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+border: 1px solid #f58220;
+}
+.navbar-header button.navbar-toggle {
+clear: both;
+margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #address{
+    margin-left: 150px;
+  }
+  #hours, #address {
+    line-height: 2;    
+    margin: 0 auto 0px;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+    position: absolute;
+  }
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  /* END FOOTER */
+  
+/*Start Home Page*/
+
+
+.container .jumbotron{
+box-shadow: 0 0 40px #2D1602;
+border: none;
+}
+#institucional-tile, #carreras-tile, #becas-tile, #contacto-tile, #noticias-tile {
+height: 350px;
+width: 100%;
+margin-bottom: 15px;
+position: relative;
+border: 2px solid #3F0C1F;
+overflow: hidden;
+}
+#institucional-tile:hover, #carreras-tile:hover, #map-tile:hover ,#becas-tile:hover,#contacto-tile:hover,
+#noticias-tile:hover{
+box-shadow: 0 1px 5px 1px #7A7979;
 }
 
- /*End Home Page*/
-  /********** Large devices only **********/
+
+#institucional-tile {
+    background: url('../images/350x150.png') no-repeat;
+    background-position: center;
+  }
+
+#institucional-tile span, #carreras-tile span,#becas-tile span, #map-tile span,#contacto-tile span,
+ #noticias-tile span {
+position: absolute;
+bottom: 0;
+right: 0;
+width: 100%;
+text-align: center;
+font-size: 1.6em;
+text-transform: uppercase;
+background-color: #000;
+color: #fff;
+opacity: .8;
+}
+/*End Home Page*/
+
+/* NOTICIAS PAGE */
+.news-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.news-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.news-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#noticias-title{
+  margin-bottom: 50px;
+}
+/* END NOTICIAS PAGE */
+
+/********** Large devices only **********/
 @media (min-width: 1200px) {
-    .container .jumbatron{
-        background: url('../images/creandoPortada-1200.jpg') no-repeat;
-        height: 675px;
+.container .jumbotron{
+background: url('../images/creandoPortada-1200.jpg') no-repeat;
+height: 675px;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+/* Header */
+#logo-img-unsj{
+background: url('../images/logoCreando-2.jpg') no-repeat ;
+background-position: 50%;
+border-radius: 50%;
+background-size: 125% auto; 
+width: 90px;
+height: 90px;
+margin: 5px 5px 5px -35px;
+}
+#nav-list{
+margin-right: -80px;
+}
+#nav-list a span {
+font-size: 1.5vw;
+}
+#nav-list a {
+color: #f58220;
+text-align: center;
+}
+/* End Header */
+.jumbotron{
+background: url('../images/creandoPortada-992.jpg') no-repeat;
+height: 558px;
 }
 }
-    
-    /********** Medium devices only **********/
-    @media (min-width: 992px) and (max-width: 1199px) {
-      /* Header */
-      #logo-img-unsj{
-        background: url('../images/logoCreando-2.jpg') no-repeat ;
-        background-position: 50%;
-        border-radius: 50%;
-        background-size: 125% auto; 
-        width: 90px;
-        height: 90px;
-        margin: 5px 5px 5px -35px;
-    }
-    #nav-list{
-        margin-right: -80px;
-    }
-    #nav-list a span {
-        font-size: 1.5vw;
-      }
-      #nav-list a {
-        color: #f58220;
-        text-align: center;
-      }
-      /* End Header */
-      .jumbatron{
-        background: url('../images/creandoPortada-992.jpg') no-repeat;
-        height: 558px;
-    }
-    }
-    
-    /********** Small devices only **********/
-    @media (min-width: 768px) and (max-width: 991px) {
-        #nav-list{
-            margin-right: -10px;
-        }
-        #nav-list a span {
-            font-size: 0.9em;
-          }
-          #nav-list{
-            margin-right: -80px;
-        }
-        /*home page*/
-        .container .jumbatron{
-            background: url('../images/creandoPortada-768.jpg') no-repeat;
-            height: 432px;
-        }
-        /*end home page*/
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+#nav-list{
+margin-right: -10px;
+}
+#nav-list a span {
+font-size: 0.9em;
+}
+#nav-list{
+margin-right: -80px;
+}
+/*home page*/
+.container .jumbotron{
+background: url('../images/creandoPortada-768.jpg') no-repeat;
+height: 432px;
+}
+/*end home page*/
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
-     /* Header */
-    .navbar-brand {
-         padding-top: 10px;
-          height: 80px;
-        }
-        .navbar-brand h1 { /* Centro de Estudiantes */
-          padding-top: 10px;
-          font-size: 5vw; /* 1vw = 1% of viewport width */
-        }
-        .navbar-brand p { /*Universidad nacional de san juan */
-          font-size: .6em;
-          margin-top: 12px;
-        }
-      
-        #collapsable-nav a { /* Collapsed nav menu text */
-          font-size: 1.2em;
-        }
-        #collapsable-nav a span { /* Collapsed nav menu glyph */
-          font-size: 1em;
-          margin-right: 5px;
-        }
-        /* End Header */
-        .container .jumbatron{
-            margin-top: 30px;
-            padding:0;
-        }
 }
+@media (max-width: 767px) {
+/* Header */
+.navbar-brand {
+padding-top: 10px;
+height: 80px;
+}
+.navbar-brand h1 { /* Centro de Estudiantes */
+padding-top: 10px;
+font-size: 5vw; /* 1vw = 1% of viewport width */
+}
+.navbar-brand p { /*Universidad nacional de san juan */
+font-size: .6em;
+margin-top: 12px;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+font-size: 1.2em;
+}
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+font-size: 1em;
+margin-right: 5px;
+}
+/* End Header */
+
+/* Home Page */
+.container .jumbotron{
+margin-top: 30px;
+padding:0;
+}
+#institucional-tile, #carreras-tile, #becas-tile, #contacto-tile, #noticias-tile{
+    width: 350px;
+    margin: 0 auto 15px;
+}
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Centro de Estudiantes*/
+    padding-top: 4px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #institucional-tile, #carreras-tile, #becas-tile, #contacto-tile, #noticias-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
 }
